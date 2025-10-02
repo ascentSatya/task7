@@ -42,9 +42,11 @@ Task7-FetchAPI/
 
 ## 🖼️ Screenshots
 1. ✅ **User Cards Display**
-  
+<img width="1919" height="761" alt="LIGHT" src="https://github.com/user-attachments/assets/a43a274d-2ad0-4827-a379-92a4fe0a5924" />
+
 2. 🌙 **Dark Mode Enabled**
-  
+<img width="1919" height="763" alt="DARK" src="https://github.com/user-attachments/assets/71936e73-9c96-40a1-a4c5-e8d084d5bbb9" />
+ 
 3. ⚠️ **Error Message (offline mode)**  
 <img width="1919" height="545" alt="OOPS" src="https://github.com/user-attachments/assets/4da4fc19-5be7-4a69-b2e4-0e8647ad939c" />
 
