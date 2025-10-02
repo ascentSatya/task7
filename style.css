@@ -1,0 +1,100 @@
+/* Base styles */
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f7fa;
+  margin: 20px;
+  text-align: center;
+  color: #333;
+  transition: background 0.3s, color 0.3s;
+}
+
+h1 {
+  margin-bottom: 15px;
+}
+
+.controls {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 8px;
+  width: 200px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 8px 12px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 5px;
+  background: #4cafef;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #2196f3;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: left;
+  transition: transform 0.2s, background 0.3s, color 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.email {
+  color: #555;
+  font-size: 14px;
+}
+
+.address {
+  font-size: 13px;
+  color: #777;
+}
+
+#message {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* DARK MODE STYLES */
+body.dark {
+  background: #1e1e1e;
+  color: #f1f1f1;
+}
+
+body.dark .card {
+  background: #2c2c2c;
+  color: #e0e0e0;
+}
+
+body.dark input {
+  background: #333;
+  color: #eee;
+  border: 1px solid #555;
+}
+
+body.dark button {
+  background: #666;
+  color: #f1f1f1;
+}
+
+body.dark button:hover {
+  background: #888;
+}
